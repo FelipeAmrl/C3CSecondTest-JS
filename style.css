@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px auto 5px;
+}
+
+header {
+    text-align: center;
+    width: 400px;
+    padding: 16px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+#inputs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+#side1, #side2, #side3 {
+    width: 60px;
+}
+
+#triangle-type {
+    text-align: center;
+    width: 200px;
+    color: black;
+}
+
+#triangle {
+    margin-top: 16px;
+}
+
+#triangle img {
+    max-width: 200px;
+}
+
+#triangle p {
+    width: 400px;
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8px;
+}
