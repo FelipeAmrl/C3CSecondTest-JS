@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px auto 5px;
+}
+
+header {
+    padding-bottom: 8px;
+}
+
+header p {
+    margin: 8px 0;
+}
+
+#a, #b, #c {
+    width: 60px;
+}
+
+#container {
+    margin: 16px 0;
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8px;
+}
