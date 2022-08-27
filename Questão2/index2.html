@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Desbhaskarando</title>
+        
+        <link rel="stylesheet" href="./style2.css" />
+        <script src="./bhaskara.js" defer></script>
+    </head>
+    <body>
+        <div id="page">
+            <header>
+                <h1>DesBhaskarando a Matemática! </h1>
+                <p> a.x² + b.x + c = 0 </p>
+                <p>Insira abaixo os valores correspondentes a "a", "b" e "c" em uma equação do segundo grau para saber os possíveis valores de x.</p>
+            </header>
+            <main>
+                <label for="a">Valor de a:</label>
+                <input type="number" name="a" id="a" placeholder="a"/>
+
+                <label for="b">Valor de b:</label>
+                <input type="number" name="b" id="b" placeholder="b" />
+
+                <label for="c">Valor de c:</label>
+                <input type="number" name="c" id="c" placeholder="c" />
+
+                
+                <div id="container">
+                    <button id="result-button">Resultado</button>
+                    <button id="reset">Apagar</button>
+                </div>
+                <div id="result"></div>
+            </main>
+            <footer>Feito com carinho por lipinho do sucesso 😎 </footer>
+        </div>
+    </body>
+</html>
